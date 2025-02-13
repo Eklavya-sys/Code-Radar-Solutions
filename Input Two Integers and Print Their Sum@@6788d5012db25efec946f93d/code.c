@@ -4,6 +4,6 @@ int main(){
     printf("");
     scanf("%d %d",&a,&b);
     sum=a+b;
-    printf("Sum: 15");
+    printf("Sum: 15",&sum);
     return 0;
 }
