@@ -1,13 +1,17 @@
 #include<stdio.h>
 int main(){
-    char name[6];
-    char favouritehobby[8];
+    char name[20];  // Increased size to hold more characters for the name
+    char favouritehobby[20];  // Increased size for hobby
     int age; 
-    printf("");
-    scanf("%s %d %s",&name,&age,&favouritehobby);
-    printf("Name: Alice\n");
-    printf("Age: 25\n");
-    printf("Hobby: Painting);
-    return 0;
 
+    // Take input from user
+    printf("Enter your name, age, and favourite hobby: ");
+    scanf("%s %d %s", name, &age, favouritehobby);
+
+    // Print the fixed output based on the input
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+    printf("Hobby: %s\n", favouritehobby);
+
+    return 0;
 }
