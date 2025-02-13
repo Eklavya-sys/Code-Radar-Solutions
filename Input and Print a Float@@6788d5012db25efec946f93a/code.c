@@ -3,6 +3,6 @@ int main(){
     int a;
     printf("");
     scanf("%d",&a);
-    printf("You entered: 3.14");
+    printf("You entered:");
     return 0;
 }
