@@ -7,7 +7,7 @@ int main(){
     int a,n,result;
     printf("");
     scanf("%d %d",&a,&n);
-    result=cleanthbit(a,n);
+    int result=cleanthbit(a,n);
     printf("%d",a,n,result);
     return 0;
 }
