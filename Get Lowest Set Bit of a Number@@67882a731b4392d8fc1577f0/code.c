@@ -16,10 +16,10 @@ int main(){
     scanf("%d %d",&a);
     int position=findlowestsetbitposition(a);
     if(position==-1){
-        printf("No set bit found\n");
+        printf("");
     }
     else{
-        printf("Position of lowest set bit is:%d\n",position);
+        printf("%d",position);
     }
     return 0;
     }
