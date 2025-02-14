@@ -1,7 +1,4 @@
 #include<stdio.h>
-int getnthbit(int a,int n){
-    return (a>>n)&1;
-}
 int main(){
     int a,n;
     printf("");
