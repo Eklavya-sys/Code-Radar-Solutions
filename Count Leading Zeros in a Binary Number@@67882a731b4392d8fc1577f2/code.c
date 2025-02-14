@@ -1,20 +1,26 @@
-#include<stdio.h>
-int countleadingzeroes(unsigned int a){
-    int count=0;
-    for(int i=31,i>=0,i--){
-        if((a>>i)&1){
-            break;
-        }
-            count++;
-        }
-        return count;
-    }
-    int main(){
-        unsigned int a;
-        printf("");
-        scanf("%u",&a);
-        int leadingzeroes=countleadingzeroes(a);
-        printf("%d",a,leadingzeroes);
-        return 0;
+#include <stdio.h>
 
+int countLeadingZeroes(unsigned int num) {
+    int count = 0;
+    for (int i = 31; i >= 0; i--) {
+        if ((num >> i) & 1) {
+            break; 
+        }
+        count++; 
     }
+    
+    return count;
+}
+
+int main() {
+    unsigned int num;
+    
+    printf("");
+    scanf("%u", &num);
+    
+    int leadingZeroes = countLeadingZeroes(num);
+    
+    printf("%d", num, leadingZeroes);
+    
+    return 0;
+}
