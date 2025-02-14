@@ -2,6 +2,9 @@
 
 int countLeadingZeroes(unsigned int num) {
     int count = 0;
+    if(num==0){
+        return 32;
+    }
     for (int i = 31; i >= 0; i--) {
         if ((num >> i) & 1) {
             break; 
