@@ -18,4 +18,3 @@ int countleadingzeroes(unsigned int a){
         return 0;
 
     }
-}
