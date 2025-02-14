@@ -14,7 +14,7 @@ int main(){
     int a;
     printf("");
     scanf("%d",&a);
-    findlowestsetbitposition(a);
+    int position=findlowestsetbitposition(a);
     printf("%d",a);
     return 0;
     }
