@@ -1,5 +1,5 @@
 #include<stdio.h>
-int lowestsetbitposition(int a){
+int findlowestsetbitposition(int a){
     if(a==0){
         return -1;
     }
