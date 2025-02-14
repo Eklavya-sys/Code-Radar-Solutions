@@ -11,7 +11,7 @@ int main(){
     scanf("%d %d",&a,&n);
     int bitvalue=getnthbit(a,n);
     if(bitvalue!=-1){
-    printf("a=%d,n=%d,bitvalue=%d\n",a,n,bitvalue);
+       printf("a=%d,n=%d,bitvalue=%d\n",a,n,bitvalue);
     }
     return 0;
 }
