@@ -4,7 +4,7 @@ int clearnthbit(a,n){
     return mask&a;
 }
 int main(){
-    int a,n,;
+    int a,n;
     printf("");
     scanf("%d %d",&a,&n);
     int result=cleanthbit(a,n);
