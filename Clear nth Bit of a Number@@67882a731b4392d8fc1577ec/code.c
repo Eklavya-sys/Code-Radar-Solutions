@@ -8,7 +8,6 @@ int main(){
     printf("");
     scanf("%d %d",&a,&n);
     if(n<0||n>31){
-        printf("");
         return 1;
     }
     int result=clearnthbit(a,n);
