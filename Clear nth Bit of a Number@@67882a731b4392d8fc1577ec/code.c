@@ -1,5 +1,5 @@
 #include<stdio.h>
-int clearnthbit(a,n){
+int clearnthbit(int a,int n){
     int mask=~(1<<n);
     return mask&a;
 }
