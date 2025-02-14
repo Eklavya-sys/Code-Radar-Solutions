@@ -4,5 +4,5 @@ int main(){
     printf("");
     scanf("%d %d",&a,&b);
     result=a^b;
-    printf("",result);
+    printf("%d",result);
 }
