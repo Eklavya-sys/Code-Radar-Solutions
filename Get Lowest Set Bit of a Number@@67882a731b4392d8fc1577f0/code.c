@@ -5,7 +5,7 @@ int lowestsetbitposition(int a){
     }
     int position=1;
     while((a&1)==0){
-        a>>=1
+        a>>=1;
         position++;
     }
     return position;
