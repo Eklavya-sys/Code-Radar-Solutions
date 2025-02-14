@@ -8,6 +8,7 @@ int main(){
     else{
         printf("Odd");
     }
+    printf("%d",a)
     return 0;
     }
 }
