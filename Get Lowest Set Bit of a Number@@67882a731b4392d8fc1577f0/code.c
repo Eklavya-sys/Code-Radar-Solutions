@@ -14,7 +14,7 @@ int main(){
     int a;
     printf("");
     scanf("%d %d",&a);
-    int position=findlowestsetbitnum(a);
+    int position=findlowestsetbitposition(a);
     if(position==-1){
         printf("No set bit found\n");
     }
