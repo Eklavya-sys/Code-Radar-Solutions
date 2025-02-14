@@ -1,7 +1,6 @@
 #include<stdio.h>
 int getnthbit(int a,int n){
-    if(n<0||n>=32){
-        printf("");
+    if(n<0||n>=32){}
         return -1;
     }
     return (a>>n)&1;
