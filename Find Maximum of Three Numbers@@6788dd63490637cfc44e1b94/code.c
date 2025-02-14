@@ -5,12 +5,13 @@ int main(){
     scanf("%d %d %d",&a,&b,&c);
     if(a>b){
         printf("a");
+    }
     else if(b>c){
         printf("b");
+    }
     else{
         printf("c");
     }
 
     }
-    }
-}
+    
