@@ -15,12 +15,6 @@ int main(){
     printf("");
     scanf("%d %d",&a);
     int position=findlowestsetbitposition(a);
-    if(position==-1){
-        printf("");
-    }
-    else{
-        printf("%d",position);
-    }
     return 0;
     }
 
