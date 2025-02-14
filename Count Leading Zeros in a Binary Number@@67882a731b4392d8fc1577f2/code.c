@@ -12,7 +12,7 @@ int countleadingzeroes(unsigned int a){
         printf("");
         scanf("%u",&a);
         int leadingzeroes=countleadingzeroes(a);
-        printf("%u %d",a,leadingzeroes);
+        printf("%d",a,leadingzeroes);
         return 0;
 
     }
