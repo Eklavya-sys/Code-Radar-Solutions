@@ -7,6 +7,6 @@ int main(){
     printf("");
     scanf("%d %d",&a,&n);
     int bitvalue=getnthbit(a,n);
-    printf("a=%d,n=%d,bitvalue=%d",n,a,bitvalue);
+    printf("a=%d,n=%d,bitvalue=%d\n",n,a,bitvalue);
     return 0;
 }
