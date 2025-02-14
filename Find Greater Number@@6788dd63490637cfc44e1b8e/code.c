@@ -9,5 +9,6 @@ int main(){
     else{
         printf("b");
     }
+    printf("%d",a,b)
     return 0;
 }
