@@ -5,10 +5,10 @@ int main(){
     scanf("%d",&a);
     if(a%2==0){
         printf("Even");
+    }
     else{
         printf("Odd");
     }
-    printf("%d",a)
     return 0;
     }
 }
