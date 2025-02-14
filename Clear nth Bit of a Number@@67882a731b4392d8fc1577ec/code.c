@@ -8,7 +8,7 @@ int main(){
     printf("");
     scanf("%d %d",&a,&n);
     int result=clearnthbit(a,n);
-    printf("%d",a,n,result);
+    printf("%d\n",n,a,result);
     return 0;
 }
 
