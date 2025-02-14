@@ -1,6 +1,6 @@
 #include<stdio.h>
 int getnthbit(a,n){
-    return (a>>n)&1
+    return (a>>n)&1;
 }
 int main(){
     int a,n;
