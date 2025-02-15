@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int i,N,product=0;
+    int i,N,product=1;
     printf("");
     scanf("%d",&i,&N);
     for(i=1;i<=N;i++){
