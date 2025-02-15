@@ -4,16 +4,16 @@ int main(){
     char operator;
     printf("");
     scanf("%d %d %c",&a,&b,&operator);
-    if(operator=="+"){
+    if(operator=='+'){
         printf("%d+%d=%d",a,b,a+b);
     }
-    else if(operator=="-"){
+    else if(operator=='-'){
         printf("%d-%d=%d",a,b,a-b);
     }
-    else if(operator=="*"){
+    else if(operator=='*'){
         printf("%d*%d=%d",a,b,a*b);
     }
-    else if(operator=="/"){
+    else if(operator=='/'){
         printf("%d/%d=%d",a,b,a/b);
         }
         }
