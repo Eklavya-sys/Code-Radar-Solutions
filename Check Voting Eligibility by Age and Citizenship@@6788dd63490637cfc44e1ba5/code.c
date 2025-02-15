@@ -12,11 +12,9 @@ int main(){
     else if(age<18&&citizenstatus==1){
         printf("Not Eligible");
     }
-    else if(age<18&&citizenstatus==0){
+    else{
         printf("Not Eligible");
     }
-    else{
-        print("Invalid");
     }
     return 0;
 }
