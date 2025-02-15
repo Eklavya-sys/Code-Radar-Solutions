@@ -1,22 +1,23 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
     char grade[50];
     char description[60];
     printf("");
     scanf("%s %s",&grade,&description);
-    if(grade=="A"){
+    if(strcmp(grade,"A")==0){
         printf("Excellent");
     }
-    else if(grade=="B"){
+    else if(strcmp(grade,"B")==0){
         printf("Good");
     }
-    else if(grade=="C"){
+    else if(strcmp(grade,"C")==0){
         printf("Average");
     }
-    else if(grade=="D"){
+    else if(strcmp(grade,"D")==0){
         printf("Below Average");
     }
-    else if(grade=="F"){
+    else if(strcmp(grade,"F")==0){
         printf("Fail");
     }
     else{
