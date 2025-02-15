@@ -24,7 +24,7 @@ int main(){
         }
     }
     if(isprime){
-        Printf("Prime");
+        printf("Prime");
     }
     else{
         printf("Not Prime");
