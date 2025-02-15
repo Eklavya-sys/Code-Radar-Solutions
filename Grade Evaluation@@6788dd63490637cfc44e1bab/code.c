@@ -3,7 +3,7 @@ int main(){
     char grade[5];
     char description[6];
     printf("");
-    scanf("%d %d",&grade,&description);
+    scanf("%c %c",&grade,&description);
     if(grade==A){
         printf("Excellent");
     }
