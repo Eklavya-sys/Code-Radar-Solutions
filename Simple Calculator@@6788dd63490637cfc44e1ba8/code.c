@@ -14,13 +14,16 @@ int main(){
         printf("%d*%d=%d",a,b,a*b);
     }
     else if(operator=='/'){
-        printf("%d/%d=%d",a,b,a/b);
+        if(b!=0){
+            printf("%d/%d=%d",a,b,a/b);
+        else{
+            printf("Error");
         }
         }
-    
+    }
     else{
         printf("Error");
-        return 0;
     }
-        
+    return 0;
+        }
 
