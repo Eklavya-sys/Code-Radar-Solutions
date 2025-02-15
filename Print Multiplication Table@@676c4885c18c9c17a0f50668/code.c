@@ -3,7 +3,7 @@ int main(){
     int i,N,product=1;
     printf("");
     scanf("%d",&N);
-    for(i=1;i<=N;i++){
+    for(i=1;i<=10;i++){
         product*=i;
         printf("%d X %d = %d\n",i,i,product);
     }
