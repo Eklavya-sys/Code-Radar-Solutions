@@ -8,13 +8,27 @@ int main(){
             printf("Eligible");
         }
     }
+        else if{
+            if(age>=18){
+                if(citizenstatus==0){
+                    printf("Not Eligible");
+                }
+            }
+        }
+        else if{
+            if(age<18){
+                if(citizenstatus==1){
+                    printf("Not Eligible");
+                }
+            }
+        }
         else{
             if(age<18){
                 if(citizenstatus==0){
+                    printf("Not Eligible");
+                }
             }
-            printf("Not Eligible");
         }
         return 0;
-    }
 }
 
