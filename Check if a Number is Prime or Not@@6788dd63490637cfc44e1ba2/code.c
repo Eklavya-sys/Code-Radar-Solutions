@@ -16,7 +16,7 @@ int main(){
     else{
         for(i=3;i*i<=a;i+=2){
             if(a%i==0){
-                isprime==0;
+                isprime=0;
                 break;
             }
 
