@@ -16,14 +16,17 @@ int main(){
     else if(operator=='/'){
         if(b!=0){
             printf("%.2f",a,b,(float)a/b);
+        }
         else{
             printf("Error");
         }
         }
-    }
+        }
+    
     else{
         printf("Error");
+        return 0;
     }
-    return 0;
-        }
+    
+        
 
