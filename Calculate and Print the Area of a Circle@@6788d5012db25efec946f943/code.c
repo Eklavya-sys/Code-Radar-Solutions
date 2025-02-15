@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    float r;
+    float r,area;
     printf("");
-    scanf("%f %f",&r);
+    scanf("%f %f",&r,&area);
     area=3.14*r*r;
     printf("Area: %f",area);
     return 0;
