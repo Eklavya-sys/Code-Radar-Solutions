@@ -4,6 +4,6 @@ int main(){
     printf("");
     scanf("%f",&r);
     area=(3.14)*(r^2);
-    printf("Area: %f",area);
+    printf("Area: %f",area,r);
     return 0;
 }
