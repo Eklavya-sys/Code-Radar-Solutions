@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    char grade[50];
-    char description[60];
+    char grade[5];
+    char description[6];
     printf("");
     scanf("%s %s",&grade,&description);
     if(grade=='A'){
