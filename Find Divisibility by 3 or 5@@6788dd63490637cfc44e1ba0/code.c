@@ -2,7 +2,6 @@
 int main(){
     int a;
     if(scanf(%d,&a)!=0){
-        printf("");
         return 1;
     }
     if(a%3==0&&a%5==0){
