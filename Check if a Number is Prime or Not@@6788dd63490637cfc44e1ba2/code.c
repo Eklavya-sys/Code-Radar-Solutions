@@ -5,7 +5,7 @@ int main(){
     int isprime=1;
     printf("");
     scanf("%d",&a);
-if(a<=0){
+    if(a<=0){
     isprime=0;
 }
 else{
