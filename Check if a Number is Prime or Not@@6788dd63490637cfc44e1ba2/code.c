@@ -15,7 +15,7 @@ int main(){
         isprime=0;
     }
     else{
-        for(i=3;i<=sqrt(a);i+=2){
+        for(i=3; i<=sqrt(a); i+=2){
             if(a%i==0){
                 isprime==0;
                 break;
