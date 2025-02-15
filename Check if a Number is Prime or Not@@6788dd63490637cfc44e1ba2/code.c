@@ -23,7 +23,7 @@ int main(){
 
         }
     }
-    if(a<=1){
+    if(isprime){
         Printf("Prime");
     }
     else{
