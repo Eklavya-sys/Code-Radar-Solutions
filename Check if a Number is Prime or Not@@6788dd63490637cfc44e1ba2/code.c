@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main(){
     int a,i;
     int isprime=1;
@@ -7,7 +8,7 @@ int main(){
     if(a<=1){
        isprime=0;
 }
-else{
+    else{
     for(i=2;i<=sqrt(a);i++){
         if(a%i==0){
             isprime=0;
