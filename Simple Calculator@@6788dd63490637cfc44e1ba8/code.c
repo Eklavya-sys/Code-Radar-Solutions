@@ -1,19 +1,19 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    char operator;
+    char operato;
     printf("");
-    scanf("%d %d %c",&a,&b,&operator);
-    if(operator=='+'){
+    scanf("%d %d %c",&a,&b,&operato);
+    if(operato=='+'){
         printf("%d+%d=%d",a,b,a+b);
     }
-    else if(operator=='-'){
+    else if(operato=='-'){
         printf("%d-%d=%d",a,b,a-b);
     }
-    else if(operator=='*'){
+    else if(operato=='*'){
         printf("%d*%d=%d",a,b,a*b);
     }
-    else if(operator=='/'){
+    else if(operato=='/'){
         if(b!=0){
             printf("%d/%d=%d",a,b,a/b);
         else{
