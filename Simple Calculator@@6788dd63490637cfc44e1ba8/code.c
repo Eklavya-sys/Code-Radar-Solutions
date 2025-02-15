@@ -13,9 +13,13 @@ int main(){
     else if(operator=="*"){
         printf("%d*%d=%d",a,b,a*b);
     }
-    else{
+    else if(operator=="/"){
         printf("%d/%d=%d",a,b,a/b);
-    }
+        }
+        }
+    
+    else{
+        printf("Error");
         return 0;
     }
         
