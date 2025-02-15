@@ -4,7 +4,7 @@ int main(){
     char operator;
     printf("");
     scanf("%d %d %c",&a,&b,&operator);
-    if(operato=='+'){
+    if(operator=='+'){
         printf("%d",a,b,a+b);
     }
     else if(operator=='-'){
