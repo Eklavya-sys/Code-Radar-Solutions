@@ -6,6 +6,6 @@ int main(){
     scanf("%d",&a);
     octal=a+2;
     printf("Hexadecimal: %x\n",hexadecimal);
-    printf("Octal: %o",octal);
+    printf("Octal: %d",octal);
     return 0;
 }
