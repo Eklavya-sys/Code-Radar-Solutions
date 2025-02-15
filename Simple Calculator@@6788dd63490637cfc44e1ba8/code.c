@@ -15,7 +15,7 @@ int main(){
     }
     else if(operator=='/'){
         if(b!=0){
-            printf("%d",a,b,(float)a/b);
+            printf("%.2f",a,b,(float)a/b);
         else{
             printf("Error");
         }
