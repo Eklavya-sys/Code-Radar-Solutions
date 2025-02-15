@@ -6,7 +6,7 @@ int main(){
     printf("");
     scanf("%d",&a);
     if(a<=1){
-    isprime=0;
+       isprime=0;
 }
 else{
     for(i=2;i<=sqrt(a);i++){
