@@ -5,9 +5,9 @@ int main(){
     int age; 
     printf("");
     scanf("%s %d %s",name,&age,favouritehobby);
-    printf("Name: Alice\n");
-    printf("Age: 25\n");
-    printf("Hobby: Painting");
+    printf("Name: %s\n",name);
+    printf("Age: %d\n",age);
+    printf("Hobby: %s",hobby);
     return 0;
 
 }
