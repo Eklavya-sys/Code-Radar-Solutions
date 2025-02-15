@@ -12,7 +12,7 @@ else{
     for(i=2;i<=sqrt(a);i++){
         if(a%i==0){
             isprime=0;
-            break;
+              break;
         }
 
     }
