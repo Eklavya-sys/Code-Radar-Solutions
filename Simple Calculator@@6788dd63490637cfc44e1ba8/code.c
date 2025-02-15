@@ -4,16 +4,16 @@ int main(){
     printf("");
     scanf("%d",&a,&b);
     if(a+=b){
-        printf("",+);
+        printf("");
     }
     else if(a-=b){
-        printf("",-);
+        printf("");
     }
     else if(a*=b){
-        printf("",*);
+        printf("");
     }
     else{
-        print("",/);
+        print("");
     }
     return 0;
 }
