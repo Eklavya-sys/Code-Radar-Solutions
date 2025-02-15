@@ -9,6 +9,9 @@ int main(){
         }
     }
         else{
+            if(age<18){
+                if(citizenstatus==0){
+            }
             printf("Not Eligible");
         }
         return 0;
