@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int N;
+    int i,N;
     printf("");
-    scanf("%d",&N);
+    scanf("%d",&i,&N);
     for(i=1;i<=N;i++){
         printf("%d*%d=%d",N);
     }
