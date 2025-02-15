@@ -2,7 +2,7 @@
 int main(){
     float r;
     printf("");
-    scanf("%f %f",&area);
+    scanf("%f %f",&r);
     area=3.14*r*r;
     printf("Area: %f",area);
     return 0;
