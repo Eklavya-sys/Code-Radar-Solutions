@@ -5,4 +5,5 @@ int main(){
     scanf("%d %d",&a,&b);
     result=a^b;
     printf("%d",result);
+    return 0;
 }
