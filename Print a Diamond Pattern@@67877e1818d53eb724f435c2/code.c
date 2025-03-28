@@ -12,11 +12,11 @@ int main(){
         }
         printf("\n");
     }
-    for(i=N;i>0;i--){
-        for(j=1;j<=N;j++){
+    for(i=N-1;i>0;i--){
+        for(j=1;j<=N-i;j++){
             printf(" ");
         }
-        for(k=2*i-1;k>0;k++){
+        for(k>1;k<=2*i-1;k++){
             printf("*");
         }
         printf("\n");
