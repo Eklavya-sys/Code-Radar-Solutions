@@ -11,9 +11,10 @@ int main(){
             else{
                 printf("");
             }
+            printf("*");
 
         }
-        printf("*");
+        printf("\n");
     }
     return 0;
 }
