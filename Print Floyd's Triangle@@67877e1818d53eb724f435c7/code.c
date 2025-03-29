@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N=1,rows;
+    int N=1,rows,i,j;
     printf("");
     scanf("%d",&N);
     for(i=1;i<=rows;i++){
