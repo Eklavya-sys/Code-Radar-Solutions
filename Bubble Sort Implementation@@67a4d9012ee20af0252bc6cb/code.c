@@ -23,7 +23,7 @@ int main(){
     printf("Original array=\n");
     printArray(arr,n);
     bubbleSort(arr,n);
-    printf("Sorted array=%d");
+    printf("Sorted array=");
     printArray(arr,n);
     return 0;
 }
