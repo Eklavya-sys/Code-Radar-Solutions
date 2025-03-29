@@ -37,18 +37,18 @@ void print_array(int arr[], int size) {
 
 int main() {
     
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int arr[];
     int n = sizeof(arr) / sizeof(arr[0]);
 
     
-    printf("\n");
+    printf("Unsorted array: \n");
     print_array(arr, n);
 
     
     bubble_sort(arr, n);
 
     
-    printf("\n");
+    printf("Sorted array: \n");
     print_array(arr, n);
 
     return 0;
