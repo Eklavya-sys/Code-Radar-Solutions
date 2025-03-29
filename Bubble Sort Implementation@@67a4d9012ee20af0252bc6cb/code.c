@@ -20,7 +20,7 @@ void printArray(int arr[],int size){
 int main(){
     int arr[n],i,n;
     n=sizeof(arr)/sizeof(arr[0]);
-    printf("Original array=%d");
+    printf("Original array=\n");
     printArray(arr,n);
     bubbleSort(arr,n);
     printf("Sorted array=%d");
