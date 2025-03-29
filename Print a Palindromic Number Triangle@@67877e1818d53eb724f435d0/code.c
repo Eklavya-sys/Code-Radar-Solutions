@@ -11,6 +11,7 @@ int main(){
             if(n==1){
                 printf("1");
                 n=2;
+            }
             else{
                 printf("2");
                 n=1;
