@@ -18,7 +18,7 @@ void printArray(int arr[],int size){
     printf("\n");
 }
 int main(){
-    int arr[];
+    int arr[],i;
     n=sizeof(arr)/sizeof(arr[0]);
     printf("Original array=%d");
     printArray(arr,n);
