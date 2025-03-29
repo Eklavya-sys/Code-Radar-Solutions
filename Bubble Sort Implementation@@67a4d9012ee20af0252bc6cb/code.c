@@ -16,7 +16,7 @@ void bubbleSort(int arr[],int n){
                 printf("\n");
             }
             int main(){
-                inr arr[];
+                int arr[];
                 n=sizeof(arr)/sizeof(arr[0]);
                 printf("Original array=%d");
                 printArray(arr,n);
