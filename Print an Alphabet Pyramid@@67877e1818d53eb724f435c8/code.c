@@ -4,8 +4,8 @@ int main(){
     char i,j;
     printf("");
     scanf("%d",&N);
-    for(i='A';i<=N;i++){
-        for(j='A';j<='A'+N;j++){
+    for(i='A';i<='A'+N;i++){
+        for(j='A';j<=N;j++){
             printf("c ",j);
         }
         printf("\n");
