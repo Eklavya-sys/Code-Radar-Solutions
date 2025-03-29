@@ -4,6 +4,7 @@ int main(){
     for(i=1;i<=N;i++){
         for(j=1;j<=N-i;j++){
             printf("%d",j);
+            printf(" ");
         }
         for(j=1;j<=i;j++){
             printf("%d",j);
