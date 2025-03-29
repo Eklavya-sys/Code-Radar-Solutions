@@ -1,7 +1,7 @@
 #include<stdio.h>
 int isprime(int n);
 int main(){
-    int n;
+    int n,result;
     printf("");
     scanf("%d",&n);
     result=isprime(n);
