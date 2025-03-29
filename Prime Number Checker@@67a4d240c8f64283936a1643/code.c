@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+
+int isprime(int n);
+
 int isprime(int n) {
     if (n <= 1) {
         return 0;
@@ -14,13 +17,14 @@ int isprime(int n) {
 
 int main() {
     int n;
-    printf("");
+    printf("Enter a number: ");
     scanf("%d", &n);
     
+    
     if (isprime(n)) {
-        printf("1");
+        printf("1\n");  
     } else {
-        printf("0");
+        printf("0\n");  
     }
 
     return 0;
