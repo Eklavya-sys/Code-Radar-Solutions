@@ -8,8 +8,14 @@ int main(){
             printf(" ");
         }
         for(k=0;k<=2*i-1;k++){
-            printf("%d",k);
-            n=3-n;
+            if(n==1){
+                printf("1");
+                n=2;
+            else{
+                printf("2");
+                n=1;
+            }
+            }
         }
         printf("\n");
     }
