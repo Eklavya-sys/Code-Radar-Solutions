@@ -1,10 +1,25 @@
 #include<stdio.h>
-int isprime(int n);
+int isprime(int n){
+if(n>2){
+    return 0;
+}
+for(int i=2;i*i<=n;i++){
+    if(n%i==0){
+        return 0;
+    }
+
+}
+return 1;
+}
 int main(){
-    int n,result;
+    int n;
     printf("");
     scanf("%d",&n);
-    result=isprime(n);
+    if(isprime(n)){
+        printf("1");
+    }
+    else{
+        printf("0");
+    }
     return 0;
-
 }
