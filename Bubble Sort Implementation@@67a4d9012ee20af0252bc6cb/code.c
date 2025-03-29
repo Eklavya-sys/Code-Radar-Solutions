@@ -41,14 +41,14 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
 
     
-    printf("Unsorted array: \n");
+    printf("\n");
     print_array(arr, n);
 
     
     bubble_sort(arr, n);
 
     
-    printf("Sorted array: \n");
+    printf("\n");
     print_array(arr, n);
 
     return 0;
