@@ -18,10 +18,10 @@ void bubbleSort(int arr[],int n){
             int main(){
                 inr arr[];
                 n=sizeof(arr)/sizeof(arr[0]);
-                printf("Original array=%d);
+                printf("Original array=%d");
                 printArray(arr,n);
                 bubbleSort(arr,n);
-                printf("Sorted array=%d);
+                printf("Sorted array=%d");
                 printArray(arr,n);
                 return 0;
             }
