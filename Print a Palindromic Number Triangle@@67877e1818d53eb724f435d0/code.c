@@ -16,9 +16,10 @@ int main(){
                 printf("2");
                 n=1;
             }
+            printf("\n");
             }
         }
-        printf("\n");
+        return 0;
     }
-    return 0;
+    
 
