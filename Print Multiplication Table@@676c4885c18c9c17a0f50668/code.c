@@ -2,7 +2,7 @@
 int main(){
     int i,num1;
     printf("");
-    scanf("%d %d",&num1,&num2);
+    scanf("%d %d",&num1);
     for(i=1;i<=10;i++){
         printf("%d X %d = %d\n",num1,i,num1*i);
     }
