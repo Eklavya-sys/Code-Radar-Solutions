@@ -19,7 +19,7 @@ void printArray(int arr[],int size){
     printf("\n");
 }
 int main(){
-    int arr[],i,n;
+    int arr[5],i,n;
     n=sizeof(arr)/sizeof(arr[0]);
     printf("Original array=\n");
     printArray(arr,n);
