@@ -6,8 +6,8 @@ int main(){
     for(i=1;i<=10;i++){
         printf("%d X %d = %d\n",num1,i,num1*i);
     }
-    for(j=1;j<=10;j++){
-        printf("%d X %d = %d\n",num2,j,num2*j);
+    for(i=1;i<=10;i++){
+        printf("%d X %d = %d\n",num2,i,num2*i);
     }
     return 0;
 }
